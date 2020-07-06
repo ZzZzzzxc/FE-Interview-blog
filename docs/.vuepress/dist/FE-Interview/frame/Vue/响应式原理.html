@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>响应式原理 | FE-Interview</title>
+    <meta name="generator" content="VuePress 1.5.2">
+    <link rel="icon" href="/hello.jpg">
+    <meta name="description" content="从现在开始，和👴一起学">
+    <link rel="preload" href="/assets/css/0.styles.916cd88f.css" as="style"><link rel="preload" href="/assets/js/app.a224bcc8.js" as="script"><link rel="preload" href="/assets/js/2.f3f93cbf.js" as="script"><link rel="preload" href="/assets/js/9.e7b1ead8.js" as="script"><link rel="prefetch" href="/assets/js/10.9010af47.js"><link rel="prefetch" href="/assets/js/11.11e5db0c.js"><link rel="prefetch" href="/assets/js/3.ea4e23ed.js"><link rel="prefetch" href="/assets/js/4.4b6e6967.js"><link rel="prefetch" href="/assets/js/5.daab8e0a.js"><link rel="prefetch" href="/assets/js/6.ec9b2ecd.js"><link rel="prefetch" href="/assets/js/7.34df9609.js"><link rel="prefetch" href="/assets/js/8.8b3d3065.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.916cd88f.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="/logo.png" alt="FE-Interview" class="logo"> <span class="site-name can-hide">FE-Interview</span></a> <div class="links"><!----> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">
+  Home
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="基础" class="dropdown-title"><span class="title">基础</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/FE-Interview/base/HTML/语义化/" class="nav-link">
+  HTML
+</a></li><li class="dropdown-item"><!----> <a href="/FE-Interview/base/CSS/常见布局/" class="nav-link">
+  CSS
+</a></li><li class="dropdown-item"><!----> <a href="/FE-Interview/base/JavaScript/数据类型/" class="nav-link">
+  JavaScript
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="框架" class="dropdown-title"><span class="title">框架</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/FE-Interview/frame/React/" class="nav-link">
+  React
+</a></li><li class="dropdown-item"><!----> <a href="/FE-Interview/frame/Vue/响应式原理/" class="nav-link">
+  Vue
+</a></li></ul></div></div><div class="nav-item"><a href="https://github.com/ZzZzzzxc" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div><div class="nav-item"><a href="https://blog.zhangxc.cn/home" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Blog
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link">
+  Home
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="基础" class="dropdown-title"><span class="title">基础</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/FE-Interview/base/HTML/语义化/" class="nav-link">
+  HTML
+</a></li><li class="dropdown-item"><!----> <a href="/FE-Interview/base/CSS/常见布局/" class="nav-link">
+  CSS
+</a></li><li class="dropdown-item"><!----> <a href="/FE-Interview/base/JavaScript/数据类型/" class="nav-link">
+  JavaScript
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="框架" class="dropdown-title"><span class="title">框架</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/FE-Interview/frame/React/" class="nav-link">
+  React
+</a></li><li class="dropdown-item"><!----> <a href="/FE-Interview/frame/Vue/响应式原理/" class="nav-link">
+  Vue
+</a></li></ul></div></div><div class="nav-item"><a href="https://github.com/ZzZzzzxc" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div><div class="nav-item"><a href="https://blog.zhangxc.cn/home" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Blog
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav>  <ul class="sidebar-links"><li><a href="/FE-Interview/frame/Vue/设计理念.html" class="sidebar-link">设计理念</a></li><li><a href="/FE-Interview/frame/Vue/响应式原理.html" class="active sidebar-link">响应式原理</a></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="响应式原理"><a href="#响应式原理" class="header-anchor">#</a> 响应式原理</h1></div> <footer class="page-edit"><!----> <!----></footer> <!----> </main></div><div class="global-ui"><!----></div></div>
+    <script src="/assets/js/app.a224bcc8.js" defer></script><script src="/assets/js/2.f3f93cbf.js" defer></script><script src="/assets/js/9.e7b1ead8.js" defer></script>
+  </body>
+</html>
