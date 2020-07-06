@@ -1,7 +1,7 @@
 module.exports = {
   title: "FE-Interview",
   description: "从现在开始，和👴一起学",
-  base: "/FE-Interview-blog/",
+  base: "/",
   head: [
     [
       "link",
