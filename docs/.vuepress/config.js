@@ -35,15 +35,15 @@ module.exports = {
       "/FE-Interview/base/JavaScript/": [
         "数据类型",
         "this",
+        "对象的属性与值",
+        "原型与继承",
         "闭包",
-        "原型",
-        "继承",
         "EventLoop",
         "生成器与迭代器",
         "异步",
         "节流和防抖",
         "常见Api的原理与实现",
-        "深浅拷贝",
+        "对象的拷贝",
         "工具函数",
       ],
       "/FE-Interview/frame/React/": [],
@@ -52,6 +52,7 @@ module.exports = {
     // 导航栏
     nav: [
       { text: "Home", link: "/" },
+      { text: "关于", link: "/About/" },
       {
         text: "基础",
         items: [
