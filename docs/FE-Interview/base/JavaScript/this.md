@@ -91,3 +91,7 @@ obj1.obj2.foo(); // 42
 2. 显式绑定 
 3. 对象调用 
 4. 默认规则
+
+## 参考
+
+- [You-Dont-Know-JS / this & object prototypes](https://github.com/getify/You-Dont-Know-JS/tree/1ed-zh-CN/this%20%26%20object%20prototypes)
