@@ -31,7 +31,7 @@ module.exports = {
     sidebarDepth: 2,
     sidebar: {
       "/FE-Interview/base/HTML/": ["语义化"],
-      "/FE-Interview/base/CSS/": ["常见布局", "BFC"],
+      "/FE-Interview/base/CSS/": ["基操", "BFC"],
       "/FE-Interview/base/JavaScript/": [
         "数据类型",
         "this",
@@ -44,6 +44,7 @@ module.exports = {
       ],
       "/FE-Interview/frame/React/": [],
       "/FE-Interview/frame/Vue/": ["设计理念", "响应式原理"],
+      "/FE-Interview/browser/": ["缓存", "本地存储"],
     },
     // 导航栏
     nav: [
@@ -58,7 +59,7 @@ module.exports = {
           },
           {
             text: "CSS",
-            link: "/FE-Interview/base/CSS/常见布局/",
+            link: "/FE-Interview/base/CSS/基操/",
           },
           {
             text: "JavaScript",
@@ -76,6 +77,19 @@ module.exports = {
           {
             text: "Vue",
             link: "/FE-Interview/frame/Vue/响应式原理/",
+          },
+        ],
+      },
+      {
+        text: "浏览器",
+        items: [
+          {
+            text: "缓存",
+            link: "/FE-Interview/browser/缓存",
+          },
+          {
+            text: "存储",
+            link: "/FE-Interview/browser/本地存储",
           },
         ],
       },
