@@ -30,7 +30,7 @@ module.exports = {
     smoothScroll: true,
     sidebarDepth: 2,
     sidebar: {
-      "/FE-Interview/base/HTML/": ["语义化"],
+      "/FE-Interview/base/HTML/": ["HTML5"],
       "/FE-Interview/base/CSS/": ["基操", "BFC"],
       "/FE-Interview/base/JavaScript/": [
         "数据类型",
@@ -44,7 +44,13 @@ module.exports = {
       ],
       "/FE-Interview/frame/React/": [],
       "/FE-Interview/frame/Vue/": ["设计理念", "响应式原理"],
-      "/FE-Interview/browser/": ["缓存", "本地存储"],
+      "/FE-Interview/browser/": [
+        "浏览器的工作原理",
+        "缓存",
+        "本地存储",
+        "跨域",
+        "事件循环",
+      ],
     },
     // 导航栏
     nav: [
@@ -55,7 +61,7 @@ module.exports = {
         items: [
           {
             text: "HTML",
-            link: "/FE-Interview/base/HTML/语义化/",
+            link: "/FE-Interview/base/HTML/HTML5/",
           },
           {
             text: "CSS",
@@ -84,12 +90,24 @@ module.exports = {
         text: "浏览器",
         items: [
           {
+            text: "浏览器的工作原理",
+            link: "/FE-Interview/browser/浏览器的工作原理",
+          },
+          {
             text: "缓存",
             link: "/FE-Interview/browser/缓存",
           },
           {
             text: "存储",
             link: "/FE-Interview/browser/本地存储",
+          },
+          {
+            text: "跨域",
+            link: "/FE-Interview/browser/跨域",
+          },
+          {
+            text: "事件循环",
+            link: "/FE-Interview/browser/事件循环",
           },
         ],
       },
