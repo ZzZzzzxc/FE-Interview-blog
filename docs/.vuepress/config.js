@@ -46,6 +46,7 @@ module.exports = {
       "/FE-Interview/frame/Vue/": ["设计理念", "响应式原理"],
       "/FE-Interview/browser/": [
         "浏览器的工作原理",
+        "渲染优化",
         "缓存",
         "本地存储",
         "跨域",
@@ -92,6 +93,10 @@ module.exports = {
           {
             text: "浏览器的工作原理",
             link: "/FE-Interview/browser/浏览器的工作原理",
+          },
+          {
+            text: "渲染优化",
+            link: "/FE-Interview/browser/渲染优化",
           },
           {
             text: "缓存",
