@@ -52,6 +52,9 @@ module.exports = {
         "跨域",
         "事件循环",
       ],
+      "/FE-Interview/network/应用层/": ["HTTP"],
+      "/FE-Interview/network/传输层/": ["TCP"],
+      "/FE-Interview/dataStructure/": ["链表"],
     },
     // 导航栏
     nav: [
@@ -113,6 +116,28 @@ module.exports = {
           {
             text: "事件循环",
             link: "/FE-Interview/browser/事件循环",
+          },
+        ],
+      },
+      {
+        text: "计算机网络",
+        items: [
+          {
+            text: "HTTP",
+            link: "/FE-Interview/network/应用层/HTTP",
+          },
+          {
+            text: "TCP",
+            link: "/FE-Interview/network/传输层/TCP",
+          },
+        ],
+      },
+      {
+        text: "数据结构",
+        items: [
+          {
+            text: "链表",
+            link: "/FE-Interview/dataStructure/链表",
           },
         ],
       },
