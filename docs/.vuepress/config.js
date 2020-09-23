@@ -16,18 +16,12 @@ module.exports = {
   evergreen: true,
   activeHeaderLinks: true,
   themeConfig: {
-    // 导航栏 Logo
-    logo: `/logo.png`,
-    // 搜索
-    search: false,
-    // 最后更新
-    lastUpdated: "最后更新于",
-    // 下一篇
-    nextLinks: false,
-    // 上一篇
-    prevLinks: false,
-    // 滚动
-    smoothScroll: true,
+    logo: `/logo.png`, // 导航栏 Logo
+    search: false, // 搜索
+    lastUpdated: "最后更新于", // 最后更新
+    nextLinks: false, // 下一篇
+    prevLinks: false, // 上一篇
+    smoothScroll: true, // 滚动
     sidebarDepth: 2,
     sidebar: {
       "/FE-Interview/base/HTML/": ["HTML5"],
@@ -42,8 +36,6 @@ module.exports = {
         "常见Api的原理与实现",
         "工具函数",
       ],
-      "/FE-Interview/frame/React/": [],
-      "/FE-Interview/frame/Vue/": ["设计理念", "响应式原理"],
       "/FE-Interview/browser/": [
         "浏览器的工作原理",
         "渲染优化",
@@ -54,7 +46,7 @@ module.exports = {
       ],
       "/FE-Interview/network/应用层/": ["HTTP"],
       "/FE-Interview/network/传输层/": ["TCP"],
-      "/FE-Interview/dataStructure/": ["链表"],
+      "/FE-Interview/dataStruct/": ["链表"],
     },
     // 导航栏
     nav: [
@@ -74,19 +66,6 @@ module.exports = {
           {
             text: "JavaScript",
             link: "/FE-Interview/base/JavaScript/数据类型/",
-          },
-        ],
-      },
-      {
-        text: "框架",
-        items: [
-          {
-            text: "React",
-            link: "/FE-Interview/frame/React/",
-          },
-          {
-            text: "Vue",
-            link: "/FE-Interview/frame/Vue/响应式原理/",
           },
         ],
       },
@@ -137,7 +116,7 @@ module.exports = {
         items: [
           {
             text: "链表",
-            link: "/FE-Interview/dataStructure/链表",
+            link: "/FE-Interview/dataStruct/链表",
           },
         ],
       },
