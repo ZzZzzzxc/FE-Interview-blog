@@ -29,7 +29,7 @@ module.exports = {
       "/FE-Interview/base/JavaScript/": [
         "数据类型",
         "this",
-        "对象的属性与值",
+        "对象",
         "原型与继承",
         "作用域与闭包",
         "异步",
