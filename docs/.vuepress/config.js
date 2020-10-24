@@ -49,6 +49,22 @@ module.exports = {
       "/FE-Interview/network/应用层/": ["HTTP"],
       "/FE-Interview/network/传输层/": ["TCP"],
       "/FE-Interview/dataStruct/": ["链表"],
+      "/FE-Interview/designPatterns/": [
+        "SOLID设计原则",
+        "简单工厂模式",
+        "抽象工厂模式",
+        "原型模式",
+        "单例模式",
+        "适配器模式",
+        "代理模式",
+        "装饰器模式",
+        "策略模式",
+        "状态模式",
+        "观察者模式",
+        // "职责链模式",
+        // "构造器模式",
+        // "外观模式",
+      ],
     },
     // 导航栏
     nav: [
@@ -111,6 +127,15 @@ module.exports = {
           {
             text: "链表",
             link: "/FE-Interview/dataStruct/链表",
+          },
+        ],
+      },
+      {
+        text: "设计模式",
+        items: [
+          {
+            text: "入口",
+            link: "/FE-Interview/designPatterns/SOLID设计原则",
           },
         ],
       },
