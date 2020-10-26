@@ -46,9 +46,11 @@ module.exports = {
         "缓存",
         "跨域",
       ],
-      "/FE-Interview/network/应用层/": ["HTTP"],
+      "/FE-Interview/security/": ["常见的安全问题"],
       "/FE-Interview/network/传输层/": ["TCP"],
+      "/FE-Interview/network/应用层/": ["HTTP"],
       "/FE-Interview/dataStruct/": ["链表"],
+      "/FE-Interview/engineering/": ["webpack"],
       "/FE-Interview/designPatterns/": [
         "SOLID设计原则",
         "简单工厂模式",
@@ -131,13 +133,21 @@ module.exports = {
         ],
       },
       {
-        text: "设计模式",
+        text: "工程化",
         items: [
           {
-            text: "入口",
-            link: "/FE-Interview/designPatterns/SOLID设计原则",
+            text: "webpack",
+            link: "/FE-Interview/engineering/webpack",
           },
         ],
+      },
+      {
+        text: "设计模式",
+        link: "/FE-Interview/designPatterns/SOLID设计原则",
+      },
+      {
+        text: "安全",
+        link: "/FE-Interview/security/常见的安全问题",
       },
       { text: "Github", link: "https://github.com/ZzZzzzxc" },
       { text: "Blog", link: "https://blog.zhangxc.cn/home" },
