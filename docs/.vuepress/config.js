@@ -40,17 +40,12 @@ module.exports = {
         "常见Api的原理与实现",
         "工具函数",
       ],
-      "/FE-Interview/browser/": [
-        "浏览器的工作原理",
-        "渲染优化",
-        "缓存",
-        "跨域",
-      ],
+      "/FE-Interview/browser/": ["浏览器的工作原理", "渲染优化", "缓存", "跨域"],
       "/FE-Interview/security/": ["常见的安全问题"],
       "/FE-Interview/network/传输层/": ["TCP"],
       "/FE-Interview/network/应用层/": ["HTTP"],
       "/FE-Interview/dataStruct/": ["链表"],
-      "/FE-Interview/engineering/": ["webpack"],
+      "/FE-Interview/engineering/": ["babel", "webpack"],
       "/FE-Interview/designPatterns/": [
         "SOLID设计原则",
         "简单工厂模式",
@@ -135,6 +130,10 @@ module.exports = {
       {
         text: "工程化",
         items: [
+          {
+            text: "babel",
+            link: "/FE-Interview/engineering/babel",
+          },
           {
             text: "webpack",
             link: "/FE-Interview/engineering/webpack",
